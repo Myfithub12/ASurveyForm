@@ -8,7 +8,7 @@
         <div class="container">
             <header class="header">
                 <h1 id="title" class="text-center"></h1>
-                <p id="description" class="description text-center"></p>
+                <p id="description" class="description text-center">Baseball Survey</p>
             </header>
             <form id="survey form">
                 <div class="form-group">
@@ -24,15 +24,16 @@
                     <p>Which option best describes your current role?</p>
                     <select id="dropdown" name="role" class="form-central">
                         <option disabled selected value>Select current role</option>
-                        <option value="student">Student</option>
-                        <option value="job">Full Time Job</option>
-                        <option value="learner">Full Time Learner</option>
+                        <option value="student">Student Athlete</option>
+                        <option value="job">Full Time Follower</option>
+                        <option value="learner">Part Time Follower</option>
+                        <option value="preferNo">Occational Watcher</option>
                         <option value="preferNo">Prefer not to say</option>
                         <option value="other">Other</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <p>Would you recommend freeCodeCamp to a friend?</p>
+                    <p>Would you recommend baseball to a friend?</p>
                     <label>
                         <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>"Definitely"
                     </label>
@@ -44,51 +45,109 @@
                         </label>
                 </div>
                 <div class="form-group">
-                    <p>What is your favorite feature of freeCodeCamp?</p>
+                    <p>What is your favorite feature of baseball?</p>
                     <select id="most-like" name="mostlike" class="form-control">
                         <option disabled selected value>Select an option</option>
                         <option value="challenges">Challenges</option>
-                        <option value="projects">Projects</option>
+                        <option value="projects">Hitting</option>
+                        <option value="projects">Feilding</option>
+                        <option value="projects">Pitching</option>
                         <option value="community">Community</option>
-                        <option value="openSource">Open Source</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <p>"What would you like to see improved?
+                    <p>"What teams do you prefer?
                         <span class="clue">(Check all that apply)</span>
                     </p>
                     <label>
-                        <input name="prefer" value="front-end-projects" type="ckeckbox" class="input-checkbox">"Front-End Projects"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Arizona Diamondbacks"
                     </label>
                     <label>
-                        <input name="prefer" value="back-end-courses" type="ckeckbox" class="input-checkbox">"Back-End Courses"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Atlanta Braves"
                     </label>
                     <label>
-                        <input name="prefer" value="data-visualizations" type="ckeckbox" class="input-checkbox">"Data Visualizations"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Baltimore Orioles"
                     </label>
                     <label>
-                        <input name="prefer" value="challenges" type="ckeckbox" class="input-checkbox">"Challenges"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Boston Red Soxs"
                     </label>
                     <label>
-                        <input name="prefer" value="open-source-community" type="ckeckbox" class="input-checkbox">"Open Source Community"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Chicago White Soxs"
                     </label>
                     <label>
-                        <input name="prefer" value="gitter-help-rooms" type="ckeckbox" class="input-checkbox">"Gitter Help Rooms"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Chicago Cubs"
                     </label>
                     <label>
-                        <input name="prefer" value="videos" type="ckeckbox" class="input-checkbox">"Videos"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Cincinnati Reds"
                     </label>
                     <label>
-                        <input name="prefer" value="city-meetups" type="ckeckbox" class="input-checkbox">"City Meetups"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Cleveland Gaurdians"
                     </label>
                     <label>
-                        <input name="prefer" value="wiki" type="ckeckbox" class="input-checkbox">"Wiki"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Colorado Rookies"
                     </label>
                     <label>
-                        <input name="prefer" value="forum" type="ckeckbox" class="input-checkbox">"Forum"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Detroit Tigers"
                     </label>
                     <label>
-                        <input name="prefer" value="additional-courses" type="ckeckbox" class="input-checkbox">"Additional Courses"
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Huston Astros"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Kansas City Royals"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Los Angeles Angels"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Los Angeles Dodgers"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Miami Marlins"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Milwaukee Brewers"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Minnesota Twins"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"New York Yankees"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"New York Mets"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Oakland Athletics"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Philadelphia Phillies"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Pittsburgh Pirates"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"San Diego Padres"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"San Francisco Giants"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Seattle Mariners"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"St. Louis Cardinals"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Tampa Bay Rays"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Texas Rangers"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Toronto Blue Jays"
+                    </label>
+                    <label>
+                        <input name="prefer" value="" type="checkbox" class="input-checkbox">"Washington Nationals"
                     </label>
                 </div>
                 <div class="form-group">
